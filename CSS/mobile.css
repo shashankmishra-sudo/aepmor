@@ -1,0 +1,172 @@
+@media screen and (max-width:960px) {
+
+
+    .contact-form {
+        left: 12%;
+        position: absolute;
+        width: 80vw;
+        /* height: 60vh; */
+        height: 10px;
+        margin-top: 8%;
+
+
+    }
+
+    .abtus {
+        width: 80vw;
+    }
+
+    .about-cntnt {
+        margin-top: 414px;
+    }
+
+    .award{
+        margin-left: 27%;
+    }
+
+
+    .footer-item{
+        margin: 10px;
+    }
+
+    .footer-item1{
+        margin: 10px;
+    }
+
+    .award{
+        margin-left: 10%;
+    }
+    .fw-normal{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+    
+.contact-form{
+    top: 18%;
+}
+
+.contact-form1{
+    margin-left: 3%;
+    width: 100vw;
+}
+
+    .navigation {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .content-right {
+
+        display: none;
+    }
+
+    .nav-left {
+        flex-direction: column;
+    }
+
+    .nav-left img {
+        margin-left: 25%;
+        /* padding-left: 41%;
+        padding-bottom: 10px;
+        border-radius: 0px; */
+    }
+
+    .nav-left ul {
+        margin-bottom: 10px;
+
+    }
+
+    .article {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .blog-img {
+        height: auto;
+    }
+
+    .articles h2 {
+        font-size: 25px;
+    }
+
+    .article_content {
+        font-size: 10px;
+    }
+
+    .blog-content h2 {
+        font-size: 20px;
+    }
+
+    .social-media {
+        padding-left: 15%;
+        padding-right: 0%;
+    }
+
+    
+
+}
+@media screen and (max-width:500px){
+    .contact-form1{
+        margin-left: 0%;
+       
+    }
+    .form-box1 label{
+        font-size: 12px;    
+    }
+    .max_width_1{
+width: 100vw;
+    }
+
+
+}
+@media screen and (max-width:390px) {
+    .article img {
+
+        width: 50vw;
+
+
+    }
+    .articles{
+        padding: 0px;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+    .form-box input,
+    textarea {
+
+        /* width: 80%; */
+        width: 60%;
+
+    }
+
+    .content-left h1 {
+        font-size: 21px;
+    }
+
+    .blog-img {
+        display: none;
+    }
+
+    .form-box1 {
+        font-size: 15px;
+    }
+
+
+.services h1{
+     font-size: 1.5rem;
+    
+}
+
+}
+
+

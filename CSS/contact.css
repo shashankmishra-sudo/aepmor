@@ -1,0 +1,81 @@
+.contact-content {
+    display: block;
+    height: 650px;
+    /* display: flex; */
+    /* background-color: rgba(184, 166, 201, 0.774); */
+    margin-top: 5px;
+    position: relative;
+    font-family: var(--font1);
+    overflow: hidden;
+
+}
+
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+.contact-content::after{
+    content: "";
+    background-image: url('../img/home.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    top: 0px;
+    margin-top: 10px;
+    z-index: -1;
+}
+
+.form-box input , textarea, select{
+    width: 50%;
+    margin: 3px;
+    padding: 4px 3px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: var(--font1);
+
+
+}
+
+.contact-form1{
+    margin-top: 0px;
+    margin-left: 16%;
+    /* display: flex; */
+}
+
+.form-box button{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.contact-content h2{
+    
+    margin-left: 10%;
+    padding: 5px;
+}
+
+.form-box1{
+    padding: 2px 2px;
+}
+.form-box1 label{
+    margin-left: 10px;
+}
+
+
+.footers{
+    background-color: rgb(118, 118, 153);;
+    color: white;
+}
+.footer-item:hover{
+    color: yellow;
+    font-size: 20px;
+}
+
+.nav-right{
+    display: flex;
+    color: rgb(32, 32, 219);
+}
+.nav-right svg{
+    margin-top: 5px;
+}

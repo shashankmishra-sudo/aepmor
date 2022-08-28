@@ -1,0 +1,42 @@
+.blog-img img{
+
+    width: 100%;
+    
+}
+
+.blog-img{
+    overflow: hidden;
+    height: 243px;
+    padding-top: 14px;
+}
+
+.blog-content h2{
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    
+
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.line-after-cobtent{
+    padding-top: 10px;
+}
+
+.meta-details{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media{
+    cursor: pointer;
+    padding-right: 53px;
+    align-self: center;
+}
